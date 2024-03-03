@@ -1,12 +1,10 @@
 .item {
     border: 1px solid gray;
     padding: 8px 16px;
-    width: 250px;
+    
 }
 .container {
-    display: flex;
-    width: 600px;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 250px 250px;
     gap: 20px;
-
 }
